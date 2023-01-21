@@ -1,0 +1,258 @@
+.mcontainer {
+    display: flex;
+    border: 2px;
+    justify-content: flex-start;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.lcontainer {
+    width: 150px;
+    height: 1010px;
+    border-right: 1px solid rgb(114, 190, 209);
+    background-color: #f6f6f6;
+    line-height: 12px;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.container1 {
+    border: 1px rgb(199, 188, 188) solid;
+    width: 700px;
+    height: 800px;
+    line-height: 20px;
+    padding-left: 15px;
+}
+
+.container1 img {
+    width: 240px;
+    height: 80px;
+    margin-top: 10px;
+    float: left;
+    padding-right: 10px;
+}
+
+.container2 {
+    border: 1px rgb(199, 188, 188) solid;
+    width: 500px;
+    height: 800px;
+    line-height: 20px;
+    padding-left: 15px;
+}
+
+.container2 img {
+    width: 170px;
+    height: 170px;
+    margin-top: 10px;
+    float: right;
+    padding-right: 10px;
+}
+
+.box {
+    border: 2px;
+    width: 1150px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    background-color: #f6fdfc;
+}
+
+.box a {
+    text-decoration: none;
+}
+
+.head1 {
+    border: 1px black solid;
+    height: 22px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #cef2f0;
+    border-color: #a3bfb1;
+    padding-left: 10px;
+    margin-left: 2px;
+    margin-right: 10px;
+}
+
+.head2 {
+    border: 1px black solid;
+    height: 22px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    background: #c4d8f0;
+    border-color: #a3bfb1;
+    padding-left: 10px;
+    margin-left: 2px;
+    margin-right: 10px;
+}
+
+.head3 {
+    border: 1px black solid;
+    height: 22px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #cef2f0;
+    border-color: #a3bfb1;
+    padding-left: 10px;
+    margin-left: 2px;
+    margin-right: 10px;
+}
+
+.head4 {
+    border: 1px black solid;
+    height: 22px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    background: #c4d8f0;
+    border-color: #a3bfb1;
+    padding-left: 10px;
+    margin-left: 2px;
+    margin-right: 10px;
+}
+
+.center {
+    height: 95px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 11px;
+    background-color: #f9f9f9;
+    border-color: #ddd;
+    padding: 10px;
+}
+
+.center a {
+    text-decoration: none;
+}
+
+.rightanchor {
+    text-align: right;
+}
+
+img {
+    width: 120px;
+    height: 140px;
+}
+
+nav div {
+    display: flex;
+    flex-direction: column;
+    border: 1px;
+    padding: 7px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.head3 ~ img {
+    float: right;
+    width: 120px;
+    height: 140px;
+}
+
+.head4 ~ img {
+    float: right;
+    width: 120px;
+    height: 140px;
+}
+
+.nav {
+    border: 2px;
+    height: 70px;
+    width: 1150px;
+    background-image: linear-gradient(to bottom, white, #f9f9f9);
+    border-bottom: 1px solid rgb(177, 189, 205);
+}
+
+.nav a {
+    font-size: 12px;
+}
+.nav div {
+    font-size: 12px;
+}
+
+.menu {
+    border: 2px;
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    font-size: 12px;
+}
+
+.form {
+    border: 1px;
+    margin-top: 34px;
+    display: flex;
+    justify-content: flex-end;
+    border-left: #1d559a;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.right {
+    display: flex;
+    border: 1px;
+    width: 280px;
+    padding-right: 3px;
+}
+.right div {
+    width: 120px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 6px;
+    /* border-right: 1px solid rgb(155, 174, 199); */
+}
+
+.read {
+    /* background-color: white; */
+    padding-right: 3px;
+}
+
+.right a {
+    text-align: left;
+    text-decoration: none;
+}
+
+.article {
+    display: flex;
+    border: 1px;
+    width: 800px;
+}
+
+.article a {
+    text-decoration: none;
+}
+
+.article div {
+    width: 70px;
+    margin-top: 5px;
+}
+.footer {
+    border: 2px;
+    height: 100px;
+    margin-left: 190px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer a {
+    text-decoration: none;
+}
+.footnav {
+    border: 2px;
+    height: 20px;
+    display: flex;
+    gap: 12px;
+}
+.footmain {
+    background-image: linear-gradient(to bottom, white, #ddd9d9);
+    margin-top: 0px;
+}
